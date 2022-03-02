@@ -7,15 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhijeet Singla's Component Library</title>
     <link rel="icon" href="media/images/website-builder.svg">
+    <link rel="stylesheet" href="style_red.css">
 </head>
 
 <body>
-    <h1>Abhijeet's Component Library</h1>
-        <p>This library is developed to be used with my portfolio, which would be published after this library is online.
-        </p>
-        <small>Also, I recently learnt that a developer should always try to include text in right category of tag, so as to
-            make a better accessibility tree😀</small>
+    <div class="fixed-bg">
+        <div class="txt-bottom-center">
+            <h1>Abhijeet's Component Library</h1>
+            <p>This library was developed to be used with my portfolio, which would be published after this library is online.
+            </p>
+            <small>Also, I recently learnt that a developer should always try to include text in right category of tag, so as to make a better accessibility tree😀</small>
+        </div>
+    </div>
 
+    <hr>
+
+    <h1><img src="media/images/hero.svg" alt="Header" width="50"> Header</h1>
+        <header class="header-base">
+            <h1>This is the header heading.</h1>
+            <img src="media/images/hero.svg" alt="This is the header image">
+        </header>
     <hr>
 
     <h1><img src="/media/images/text-field.svg" alt="Typography" width="50"> Typography</h1>
@@ -25,7 +36,7 @@
         <h4>Heading 4</h4>
         <h5>Heading 5</h5>
         <h6>Heading 6</h6>
-        <em>As can be seen the above are headings thus are in bold, unlike the paragraph text. (by the way this is the emphasis tag.</em>
+        <em>As can be seen the above are headings thus are in bold, unlike the paragraph text. (by the way this is the emphasis tag.)</em>
         <cite>And this is the cite tag being used, but as can be seen there is no difference between the looks.</cite>
         <p>It's important to note that these tags have difference meaning so as to identify the significance of the text. This comes in handy for the accessibility tree as mentioned earlier.</p>
         <small>This is small text, which is a smaller font size and they all (small, 'em', 'cite') are inline elements, there syntax is stated in the next topic in form of lists.</small>
@@ -72,7 +83,7 @@
             <li>Cite: <code>&lt;cite> Lorem Ipsum &lt;cite></code></li>
         </ol>
         <h2>Unordered list</h2>
-        <p>This is an unordered list reprented by bullets.</p>
+        <p>This is an unordered list represented by bullets.</p>
         <h3>Block form</h3>
         <ul>
             <li>Small: <code>&ltsmall> Lorem Ipsum &lt;/small></code></li>
@@ -89,13 +100,29 @@
 
     <hr>
 
-    <h1><img src="media/images/link.svg" alt="Links" width="50"> Links</h1>
+    <h1><img src="media/images/link.svg" alt="Links" width="50"> Buttons</h1>
         <p>The links here are not pointing to anything as of now, but the syntax for the same would be provided, For example:</p>
-        <a href="/">This is a link.</a>
+        <a href="/">This is a link, not a button</a>
         <p>The syntax for the above would be:</p>
         <p><code>&lt;a href = "path">This is a link.&lt;/a></code></p>
         <em>The anchor tag is inline element, which means multiple links can be put in a single line, for example:</em>
-        <p><a href="/">Primary Link</a> <a href="/">Secondary Link</a></p>
+        <p><a href="/" class="link-primary-button">Primary Link</a> <a href="/" class="link-secondary-button">Secondary Link</a></p>
+
+    <hr>
+
+    <h1>Code</h1>
+    <p>The &lt;code> tag creates a block for representing a computer code. It will be in the default monospace style of the user agent, but it can be embeded with other hosting services like github, below is an example.</p>
+    <script src="https://gist.github.com/AbhijeetSingla/54e35c4b8d4420a028d3645557af781d.js"></script>
+
+    <p>But sometimes a custom design is preferred to set it according to theme of the webpage, for example, the same code but with the styling mentioned in above code block.</p>
+
+    <code class="code-base"><pre>
+        .code-base {
+            background-color: var(--toast-bg);
+            color: var(--light-yellow);
+        }
+        </pre>
+    </code>
 
     <hr>
 
@@ -117,12 +144,11 @@
     <hr>
 
     <h1><img src="media/images/navigate.svg" alt="Navigation" width="50"> Navigation</h1>
-        <p>This is for navigating through the website. This usually is inline and in header of the page, in the following
-            order:</p>
-        <nav>
+        <p>This is for navigating through the website. This usually is inline and in header of the page, in the following order:</p>
+        <nav class="nav-base">
             <div>Brand name or logo</div>
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="/" class="link-active">Home</a></li>
                 <li><a href="/">Tab 2</a></li>
                 <li><a href="/">Tab 3</a></li>
                 <li><a href="/">About</a></li>
@@ -136,36 +162,39 @@
             off-white background and with a padding top and bottom.</p>
         <em>In a section, due to default document object model (DOM), the heading size is smaller than when it is outside
             the section, so for a heading 1 - it's font size is 1.5 and not the default 2.</em>
-        <section>
+        <section class="sec-base sec-wht" >
             <h3>Normal section</h3>
             <p>This section will have a white background.</p>
         </section>
-        <section>
+        <section class="sec-base sec-off-wht">
             <h3>Off-white section</h3>
             <p>This section has a off-white background.</p>
+        </section>
+
+        <h2>This is a toast notification, it can be with sound or without sound.</h2>
+
+        <section class=" sec-base sec-toast">
+            <h3>Toast section</h3>
+            <p>This section is a toast section.</p>
+        </section>
+        <section class="sec-base sec-toast">
+            <h3>Toast section</h3>
+            <p>This section is a toast section with a sound, which I will add later.</p>
         </section>
         <em>There are many combinations possible for sections, I will add them later ༼ つ ◕_◕ ༽つ</em>
 
     <hr>
 
-    <h1><img src="media/images/hero.svg" alt="Header" width="50"> Header</h1>
-        <header>
-            <h1>This is the header heading.</h1>
-            <img src="media/images/hero.svg" alt="This is the header image" width="500">
-        </header>
-
-    <hr>
-
     <h1>Footer</h1>
-        <p>A footer is the one at the bottom of the webpage. It mostly contains the header for footer (some text) and the
-            social links.</p>
-        <footer>
-            <div>Some text</div>
+        <p>A footer is the one at the bottom of the webpage. It mostly contains the header for footer (some text) and the social links.</p>
+        <footer class="footer-base">
+            <div>Social Links</div>
             <ul>
-                <li><a href="/">Social link 1</a></li>
-                <li><a href="/">Social link 2</a></li>
-                <li><a href="/">Social link 3</a></li>
+                <li><a href="/index.html#footer" target="_blank">linkedin</a></li>
+                <li><a href="/" target="_blank">Social link 2</a></li>
+                <li><a href="/" target="_blank">Social link 3</a></li>
             </ul>
+            <p>Copyright &#169 2022. Made by &lt;Your name here></p>
         </footer>
 </body>
 
