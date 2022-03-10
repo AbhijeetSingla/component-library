@@ -1,0 +1,73 @@
+
+/* apply to all */
+
+:root {
+    --red-base: #AA1111;
+    --white-base: #FFFFFF;
+    --white-smoke-base: #EBEBEB;
+    --black-base: #000000;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* modular */
+
+.cover-viewport {
+    height: 100vh;
+    width: 100vw;
+    /* width: 100%;    why is this required!?!?!?!? */
+}
+
+.ul-style-none-inline>* {
+    list-style: none;
+    display: inline;
+}
+
+/* cover screen */
+
+.fixed-bg {
+    background: url(/media/images/website-builder.svg) no-repeat fixed center/cover;
+    /* the bg-size must be defined immediately after the position and separated by a '/' */
+}
+
+.fixed-bg h1 {
+    font-size: 3rem;
+}
+
+.fixed-bg>*>* {
+    margin-inline: 1rem;
+    /* check for draft */
+    font-size: 110%;
+}
+
+.fixed-bg>* {
+    background: linear-gradient(to bottom, transparent, white 100%);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center ;
+    align-content: center;
+    text-align: center;
+}
+
+/* header */
+
+.header-base img {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.header-base {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+/* navigation */
+
+.nav-base {
+    display: inline;
+}
