@@ -7,45 +7,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhijeet Singla's Component Library</title>
     <link rel="icon" href="media/images/website-builder.svg">
+    <link rel="stylesheet" href="/css/style_red.css">
 </head>
 
 <body>
-    <h1>Abhijeet's Component Library</h1>
-        <p>This library is developed to be used with my portfolio, which would be published after this library is online.
-        </p>
-        <small>Also, I recently learnt that a developer should always try to include text in right category of tag, so as to
-            make a better accessibility tree😀</small>
+    <div class="fixed-bg cover-viewport">
+        <div class="cover-viewport">
+            <h1>Abhijeet's Component Library</h1>
+            <p>This library was developed to be used with my portfolio, which would be published after this library is online.
+            </p>
+            <small>Also, I recently learnt that a developer should always try to include text in right category of tag, so as to make a better accessibility tree😀</small>
+        </div>
+    </div>
 
     <hr>
 
-    <h1><img src="/media/images/text-field.svg" alt="Typography" width="50"> Typography</h1>
-        <h1>This is heading 1 (biggest heading)</h1>
-        <h2>This is heading 2 (second biggest)</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
-        <em>As can be seen the above are headings thus are in bold, unlike the paragraph text. (by the way this is the
-            emphasis tag.</em>
-        <cite>And this is the cite tag being used, but as can be seen there is no difference between the looks.</cite>
-        <p>It's important to note that these tags have difference meaning so as to identify the significance of the text.
-            This comes in handy for the accessibility tree as mentioned earlier.</p>
-        <small>This is small text, which is a smaller font size and they all (small, 'em', 'cite') are inline elements,
-            there syntax is stated in the next topic in form of lists.</small>
+    <div class="container-center">
+    <h1><img src="media/images/hero.svg" alt="Header" width="50"> Header</h1>
+        <header class="header-base">
+            <h1>This is the header.</h1>
+            <img src="media/images/hero.svg" alt="This is the header image">
+        </header>
+    </div>
 
     <hr>
 
+    <div class="container-center">
+    <h1><img src="media/images/navigate.svg" alt="Navigation" width="50"> Navigation</h1>
+        <p>This is for navigating through the website. This usually is inline and in header of the page, in the following order:</p>
+
+    </div>
+        <nav class="nav-base flex">
+            <div id="primary-nav-logo">Brand name or logo</div>
+            <ul class="list-style-none flex">
+                <li><a href="/" class="link-active uppercase">Home</a></li>
+                <li><a href="/" class="uppercase">Tab 2</a></li>
+                <li><a href="/" class="uppercase">Tab 3</a></li>
+                <li><a href="/" class="uppercase">About</a></li>
+            </ul>
+        </nav>
+
+    <hr>
+    
+    <div class="container-center">
+        <h1><img src="/media/images/text-field.svg" alt="Typography" width="50"> Typography</h1>
+        <div class="typography-base flex">
+            <h1>This is heading 1 (biggest heading)</h1>
+            <h2>This is heading 2 (second biggest)</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <em>As can be seen the above are headings thus are in bold, unlike the paragraph text. (by the way this is the emphasis tag.)</em>
+            <cite>And this is the cite tag being used, but as can be seen there is no difference between the looks.</cite>
+            <p>It's important to note that these tags have difference meaning so as to identify the significance of the text. This comes in handy for the accessibility tree as mentioned earlier.</p>
+            <small>This is small text, which is a smaller font size and they all (small, 'em', 'cite') are inline elements, there syntax is stated in the next topic in form of lists.</small>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container-center">
     <h1><img src="media/images/sides.svg" alt="Aside text" width="50"> Aside text</h1>
-            <aside>
+            <aside class="aside-base">
                 <h4>This is heading level 4</h4>
                 <p>This is the text that's indirectly related to the main content it is placed in., for example this text and its heading is in the <code>&lt;aside></code> tag.</p>
             </aside>
+    </div>
 
     <hr>
 
+    <div class="container-center">
     <h1><img src="media/images/list.svg" alt="Lists" width="50"> Lists</h1>
-        <p>There are two types of lists, ordered lists and unordered lists. The ordered lists have a numbering before them
-            indicated a order of items listed. These lists can be represented in either in block or inline form.</p>
+        <p>There are two types of lists, ordered lists and unordered lists. The ordered lists have a numbering before them indicated a order of items listed. These lists can be represented in either in block or inline form.</p>
         <h2>Ordered list</h2>
         <h3>Normal order</h3>
         <p>This is a ordered list in which numbering start from 1 and goes in order.</p>
@@ -56,7 +90,7 @@
             <li>Cite: <code>&lt;cite> Lorem Ipsum &lt;/cite></code></li>
         </ol>
         <h4>Inline form</h4>
-        <ol>
+        <ol class="list-inline">
             <li>Small: <code>&lt;small> Lorem Ipsum &lt;/small></code></li>
             <li>Emphasis: <code>&lt;em> Lorem Ipsum &lt;/em></code></li>
             <li>Cite: <code>&lt;cite> Lorem Ipsum &lt;cite></code></li>
@@ -64,19 +98,19 @@
         <h3>Reversed order</h3>
         <p>This is a ordered list in which the numbering starts from the last upto 1 in reverse order.</p>
         <h4>Block form</h4>
-        <ol>
+        <ol reversed>
             <li>Small: <code>&lt;small> Lorem Ipsum &lt;/small></code></li>
             <li>Emphasis: <code>&lt;small> Lorem Ipsum &lt;/small></code></li>
             <li>Cite: <code>&lt;cite> Lorem Ipsum &lt;cite></code></li>
         </ol>
         <h4>Inline form</h4>
-        <ol>
+        <ol reversed class="list-inline">
             <li>Small: <code>&lt;small> Lorem Ipsum &lt;/small></code></li>
             <li>Emphasis: <code>&lt;small> Lorem Ipsum &lt;/small></code></li>
             <li>Cite: <code>&lt;cite> Lorem Ipsum &lt;cite></code></li>
         </ol>
         <h2>Unordered list</h2>
-        <p>This is an unordered list reprented by bullets.</p>
+        <p>This is an unordered list represented by bullets.</p>
         <h3>Block form</h3>
         <ul>
             <li>Small: <code>&ltsmall> Lorem Ipsum &lt;/small></code></li>
@@ -84,94 +118,122 @@
             <li>Cite: <code>&lt;cite> Lorem Ipsum &lt;/cite></code></li>
         </ul>
         <h3>Inline form</h3>
-        <ul>
+        <ul class="list-inline">
             <li>Small: <code>&ltsmall> Lorem Ipsum &lt;/small></code></li>
             <li>Emphasis: <code>&lt;em> Lorem Ipsum &lt;/em></code></li>
             <li>Cite: <code>&lt;cite> Lorem Ipsum &lt;/cite></code></li>
         </ul>
         <em>Please note the above commands were written using HTML entities.</em>
+    </div>
 
     <hr>
 
-    <h1><img src="media/images/link.svg" alt="Links" width="50"> Links</h1>
-        <p>The links here are not pointing to anything as of now, but the syntax for the same would be provided, For
-            example:</p>
-        <a href="/">This is a link.</a>
+    <div class="container-center">
+    <h1><img src="media/images/link.svg" alt="Links" width="50">Links</h1>
+        <p>The links here are not pointing to anything as of now, but the syntax for the same would be provided, For example:</p>
+        <a href="/">This is a link, not a button</a>
         <p>The syntax for the above would be:</p>
         <p><code>&lt;a href = "path">This is a link.&lt;/a></code></p>
         <em>The anchor tag is inline element, which means multiple links can be put in a single line, for example:</em>
-        <p><a href="/">Primary Link</a> <a href="/">Secondary Link</a></p>
+        <p><a href="/" class="primary-link">Primary Link</a> <a href="/" class="secondary-link">Secondary Link</a></p>
+    </div>
 
     <hr>
 
+    <div class="container-center">
+    <h1><img src="/media/images/button.svg" width="50"> Button</h1>
+        <p>The buttons are not doing anything as of now.</p>
+        <p>The syntax for the above would be:</p>
+        <code>&lt;button type="button" >This is a button&lt;/button></code>
+        <p>The output would be:</p>
+        <button type="button" class="primary-button">Button</button>
+
+        <button type="submit" class="primary-button flex">Submit<img src="/media/icons/chevron-forward-outline.svg" width="25px"></button>
+
+        <button type="reset" class="primary-button flex">Reset<img src="/media/icons/refresh-outline.svg" width="25px"></button>
+    </div>
+
+    <hr>
+
+    <div class="container-center">
+        <h1><img src="/media/images/code.svg" width="50"> Code</h1>
+        <p>The &lt;code> tag creates a block for representing a computer code. It will be in the default monospace style of the user agent, but it can be embeded with other hosting services like github, below is an example.</p>
+        <script src="https://gist.github.com/AbhijeetSingla/54e35c4b8d4420a028d3645557af781d.js"></script>
+        <p>But sometimes a custom design is preferred to set it according to theme of the webpage, for example, the same code but with the styling mentioned in above code block.</p>
+        <figure class="code-base container-base">
+            <figcaption>CSS</figcaption>
+            <pre contenteditable="true">
+                <code>
+                .code-base {
+                    background-color: var(--toast-bg);
+                    color: var(--light-yellow);
+                }
+                </code>
+            </pre>
+        </figure>
+    </div>
+
+    <hr>
+
+    <div class="container-center">
     <h1><img src="media/images/container.svg" alt="Containers" width="50"> Containers</h1>
-        <p>The following represent containers where different elements can grouped and can be placed according to the
-            design.</p>
+        <p>The following represent containers where different elements can grouped and can be placed according to the design.</p>
         <p>There are two types of containers:</p>
         <ul>
             <li>
                 <h3>Fluid containers</h3>
-                <p>These span accross the end of the page.</p>
+                <p><div class="container-base">These span accross the end of the page.</div></p>
 
             </li>
             <li>
                 <h3>Centered containers</h3>
-                <p>These are centered till the specified width.</p>
+                <p><div class="container-center">These are centered till the specified width. The container is centered but the text is not.</div></p>
             </li>
         </ul>
+    </div>
 
     <hr>
 
-    <h1><img src="media/images/navigate.svg" alt="Navigation" width="50"> Navigation</h1>
-        <p>This is for navigating through the website. This usually is inline and in header of the page, in the following
-            order:</p>
-        <nav>
-            <div>Brand name or logo</div>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Tab 2</a></li>
-                <li><a href="/">Tab 3</a></li>
-                <li><a href="/">About</a></li>
-            </ul>
-        </nav>
-
-    <hr>
-
+    <div class="container-center">
     <h1><img src="media/images/section.svg" alt="Sections" width="50"> Sections</h1>
-        <p>There are different kinds of sections, they can either be normal section with a white background, with a
-            off-white background and with a padding top and bottom.</p>
-        <em>In a section, due to default document object model (DOM), the heading size is smaller than when it is outside
-            the section, so for a heading 1 - it's font size is 1.5 and not the default 2.</em>
-        <section>
+        <p>There are different kinds of sections, they can either be normal section with a white background, with a off-white background and with a padding top and bottom.</p>
+        <em>In a section, due to default document object model (DOM), the heading size is smaller than when it is outside the section, so for a heading 1 - it's font size is 1.5 and not the default 2.</em>
+        <section class="section-base" >
             <h3>Normal section</h3>
             <p>This section will have a white background.</p>
         </section>
-        <section>
+        <section class="section-base section-offwhite">
             <h3>Off-white section</h3>
             <p>This section has a off-white background.</p>
         </section>
-        <em>There are many combinations possible for sections, I will add them later ༼ つ ◕_◕ ༽つ</em>
+
+        <h2>This is a toast notification, it can be with sound or without sound.</h2>
+        <aside class="aside-base">Not styling these for now.</aside>
+        <section>
+            <h3>Toast section</h3>
+            <p>This section is a toast section.</p>
+        </section>
+        <section>
+            <h3>Toast section</h3>
+            <p>This section is a toast section with a sound, which I will add later.</p>
+        </section>
+        <em>There are many combinations possible for sections, I will add them later <span aria-hidden="true">༼ つ ◕_◕ ༽つ</span></em>
+    </div>
 
     <hr>
 
-    <h1><img src="media/images/hero.svg" alt="Header" width="50"> Header</h1>
-        <header>
-            <h1>This is the header heading.</h1>
-            <img src="media/images/hero.svg" alt="This is the header image" width="500">
-        </header>
-
-    <hr>
-
+    <div class="container-center">
     <h1>Footer</h1>
-        <p>A footer is the one at the bottom of the webpage. It mostly contains the header for footer (some text) and the
-            social links.</p>
-        <footer>
-            <div>Some text</div>
-            <ul>
-                <li><a href="/">Social link 1</a></li>
-                <li><a href="/">Social link 2</a></li>
-                <li><a href="/">Social link 3</a></li>
+        <p>A footer is the one at the bottom of the webpage. It mostly contains the header for footer (some text) and the social links.</p>
+    </div>
+        <footer class="footer-base flex">
+            <div class="footer-heading">Social Links</div>
+            <ul class="list-style-none flex">
+                <li><a href="/index.html#footer" target="_blank">Social Link 1</a></li>
+                <li><a href="/" target="_blank">Social link 2</a></li>
+                <li><a href="/" target="_blank">Social link 3</a></li>
             </ul>
+            <p>Copyright &#169 2022. Made by &lt;Your name here></p>
         </footer>
 </body>
 
