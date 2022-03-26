@@ -68,7 +68,6 @@
     display: inline;
     margin: auto;
     text-align:end;
-    background-color: var(--light-yellow);
     /* padding: 1rem; */
 }   
 
@@ -76,7 +75,6 @@
     list-style: none;
     display: inline;
     padding: 1rem;;
-    background-color: blueviolet;
 }   
 
 .nav-base>div {
@@ -84,7 +82,6 @@
     padding: 1rem;
     text-align: left;
     text-align:start;
-    background-color: #0E1012;
 }
 
 .nav-base a {
@@ -152,43 +149,42 @@ a.link-secondary-button {
 
 /* section */
 
-.sec-base {
+.section-base {
     text-align: center;
     border-radius: 0.5rem;
     padding: 0.1rem 2rem 0.1rem;
     transition: 150ms;
 }
 
-.sec-base:hover {
+.section-base:hover {
     padding: 1rem;
     font-size: 1.4rem;
     transition: 200ms;
 }
 
-.sec-base:is(h1 h2 h3 h4 h5 h6) {
+.section-base:is(h1 h2 h3 h4 h5 h6) {
     font-weight: bold;
     padding: 0.1rem;
 }
 
-.sec-wht {
+.section-white {
     background-color: var(--white-smoke);
     color: var(--section-font-color);
 }
 
-.sec-off-wht {
+.section-offwhite {
     background-color: var(--light-yellow);
     color: var(--section-font-color);
 }
 
 /* toast */
 
-.sec-toast {
-    /* animation include */
+.section-toast {
     background-color: var(--toast-bg);
     color: var(--toast-txt-h);
 }
 
-.sec-toast p {
+.section-toast p {
     color: var(--toast-txt);
 }
 
