@@ -55,7 +55,4 @@ A live preview can be seen at
 [as1553cl.netlify.app](https://as1553cl.netlify.app)
 
 # Suggestions❓
-Any suggestions are welcome, be it a different way to write the same class, kindly do message me or email me at 
-
-# Stay tuned 👀
-More themes are coming.
+Any suggestions are welcome, be it a different way to write the same class, kindly do message me.
