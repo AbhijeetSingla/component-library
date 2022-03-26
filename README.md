@@ -9,30 +9,30 @@
 
 # What's included?
 This component library includes the following:
-- Gradient Cover page with background
-- Header
-- Navigation
-- Typography
-- Aside
-- Lists (all the possible combinations I could muster up)
-- Links
+1. Gradient Cover page with background
+2. Header
+3. Navigation
+3. Typography
+3. Aside
+3. Lists (all the possible combinations I could muster up)
+3. Links
     - Primary Link
     - Secondary Link
-- Buttons
+3. Buttons
     - Primary Button
     - Submit Button
     - Reset Button
-- Code block
+3. Code block
     - Code block hosted by github "Gist"
     - Off white code block
-- Containers
+3. Containers
     - Fluid
     - Center 
-- Sections
+3. Sections
     - Normal
     - Off white
     - Toast *(Not Completed yet)*
-- Footer
+3. Footer
 
 # Getting Started
 Each component is styled and contained in a div, the HTML code can be found in the "index.html" file. In CSS mmuliple utility classes have also been used, kindly do note that.

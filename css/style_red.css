@@ -1,9 +1,9 @@
 
 /* apply to all */
 
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 :root {
     --red: #ff0000;
