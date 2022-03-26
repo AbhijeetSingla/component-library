@@ -1,7 +1,18 @@
 # About
- A component library created for further projects. This library would have themes as branches. The latest finalized theme would be set for showcase.
 
- ***These themes are responsive :D***
+***This is theme is a work in progress!***
+
+ This library has theme set bu colors:
+- reds-500:  #ef4444;
+- deep-gray:    #171717;
+- white-smoke: whitesmoke;
+- light-yellow: #FFC857;
+- light-black:  #0E1012;
+- smoky-gray:   #73777B;
+- section-font-color: black;
+- toast-bg:     #3A394C;
+- toast-txt-h:  #F9F9F9;
+- toast-txt:    #afafb7;
 
 # What's included?
 This component library includes the following:
