@@ -45,6 +45,8 @@ A live preview can be seen at
 
 [as1553-component-library.netlify.app](https://as1553-component-library.netlify.app)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/51e2a241-bc66-4fdf-9be9-053d6e99bbd2/deploy-status)](https://app.netlify.com/sites/as1553-component-library/deploys)
+
 # Suggestions❓
 Any suggestions are welcome, be it a different way to write the same class, kindly do message me.
 
