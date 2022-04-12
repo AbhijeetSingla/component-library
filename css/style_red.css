@@ -35,23 +35,25 @@ body {
 /* cover screen */
 
 .fixed-bg {
-    background: url(/media/images/website-builder.svg) no-repeat fixed center/cover;
-    /* the bg-size must be defined immediately after the position and separated by a '/' */
+    background-image: url(/media/images/website-builder.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .fixed-bg h1 {
     font-size: 3rem;
 }
 
-.fixed-bg>*>* {
+.welcome-screen-div>* {
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
     font-size: 110%;
 }
 
-.fixed-bg>* {
+.welcome-screen-div {
     background: linear-gradient(to bottom, transparent, white 100%);
-    display: flex;
     flex-flow: column nowrap;
     justify-content: center ;
     align-content: center;
