@@ -7,22 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhijeet Singla's Component Library</title>
     <link rel="icon" href="media/images/website-builder.svg">
-    <link rel="stylesheet" href="/css/style_red.css">
+    <link rel="stylesheet" href="/css/color-scheme.css">
 </head>
 
 <body>
+    
     <div class="fixed-bg cover-viewport">
-        <div class="cover-viewport flex welcome-screen-div">
+        <div class="welcome-screen-div flex cover-viewport">
             <h1>Abhijeet's Component Library</h1>
-            <p>This library was developed to be used with my portfolio, which would be published after this library is online.
-            </p>
-            <small>Also, I recently learnt that a developer should always try to include text in right category of tag, so as to make a better accessibility tree😀</small>
+            <h2>Now with support for dark-mode</h2>
+            <p>This library was developed to be used with my portfolio, which would be published after this library is online.</p>
+            <div class="welcome-screen-arrow"><a href="#anchor-start-1"><img src="/media/icons/up-arrow.svg" width="75px" class="filter-color-scheme"></a></div>
         </div>
     </div>
 
     <hr>
 
-    <div class="container-center">
+    <div class="container-center" id="anchor-start-1">
     <h1><img src="media/images/hero.svg" alt="Header" width="50"> Header</h1>
         <header class="header-base">
             <h1>This is the header.</h1>
@@ -38,14 +39,14 @@
 
     </div>
         <nav class="nav-base flex">
-            <div id="primary-nav-logo">Brand name or logo</div>
+            <a href="/index.html" class="txt-decor-none"><div class="primary-nav-logo flex"><img src="/media/images/hero.svg" alt="brand logo" width="50px">Brand Name</div></a>
             <ul class="list-style-none flex">
-                <li><a href="/" class="link-active uppercase">Home</a></li>
-                <li><a href="/" class="uppercase">Tab 2</a></li>
-                <li><a href="/" class="uppercase">Tab 3</a></li>
+                <li><a href="/" class="uppercase link-active">Home</a></li>
+                <li><a href="/" class="uppercase">tab 2</a></li>
+                <li><a href="/" class="uppercase">tab 3</a></li>
                 <li><a href="/" class="uppercase">About</a></li>
             </ul>
-        </nav>
+        </nav> 
 
     <hr>
     
@@ -147,10 +148,8 @@
         <code>&lt;button type="button" >This is a button&lt;/button></code>
         <p>The output would be:</p>
         <button type="button" class="primary-button">Button</button>
-
-        <button type="submit" class="primary-button flex">Submit<img src="/media/icons/chevron-forward-outline.svg" width="25px"></button>
-
-        <button type="reset" class="primary-button flex">Reset<img src="/media/icons/refresh-outline.svg" width="25px"></button>
+        <button type="submit" class="primary-button">Submit<img src="/media/icons/chevron-forward-outline.svg"></button>
+        <button type="reset" class="primary-button">Reset<img src="/media/icons/refresh-outline.svg"></button>
     </div>
 
     <hr>
@@ -222,16 +221,103 @@
 
     <hr>
 
+    <div class="container-center section-offwhite">
+        <h1 id="showcase">Showcase with cards</h1>
+        <p>These cards can be used to represent anything in a card form, since being a grid layout, it will adapt according to screen size.</p>
+        <div class="blog-list grid">
+            <a href="#showcase" target="_blank" class="txt-decor-none blog-card container-base">
+                <div class="blog-container flex">
+                    <div class="blog-card-cover">
+                        <img src="/media/images/lorem-ipsum.jpg" alt="lorem-ipsum">
+                    </div>
+                    <div class="blog-card-text flex">
+                        <div>
+                            <p>Mar 27, 2022</p>
+
+                            <h1 class="blog-card-heading">Clean Install windows 10 with zero bloatware</h1>
+                            <p class="blog-card-para">Windows 10 comes with a lot of bundled bloatware, which hogs down
+                                system resources. In this guide we remove bloatware from the windows ISO.</p>
+                        </div>
+                        <div>
+                            <hr class="blog-card-hr">
+                            <div class="blog-stat flex">
+                                <img src="/media/icons/read-book.svg" alt="read time" width="16px"
+                                    class="filter-color-scheme">
+                                <p>5 minutes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#showcase" target="_blank" class="txt-decor-none blog-card container-base">
+                <div class="blog-container flex">
+                    <div class="blog-card-cover">
+                        <img src="/media/images/lorem-ipsum.jpg" alt="lorem-ipsum">
+                    </div>
+                    <div class="blog-card-text flex">
+                        <div>
+                            <p>Mar 25, 2022</p>
+
+                            <h1 class="blog-card-heading">Clean Install Custom Roms on your android smartphone</h1>
+                            <p class="blog-card-para">An abstract about flashing custom ROM to a android smartphone for
+                                beginners.</p>
+                        </div>
+                        <div>
+                            <hr class="blog-card-hr">
+                            <div class="blog-stat flex">
+                                <img src="/media/icons/read-book.svg" alt="read time" width="16px"
+                                    class="filter-color-scheme">
+                                <p>10 minutes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#showcase" target="_blank" class="txt-decor-none blog-card container-base">
+                <div class="blog-container flex">
+                    <div class="blog-card-cover">
+                        <img src="/media/images/lorem-ipsum.jpg" alt="lorem-ipsum">
+                    </div>
+                    <div class="blog-card-text flex">
+                        <div>
+                            <p>Mar 24, 2022</p>
+
+                            <h1 class="blog-card-heading">FPS drops in Linux explained</h1>
+                            <p class="blog-card-para">Wondering why you have FPS drops in linux, even though everything
+                                works fine in windows!?</p>
+                        </div>
+                        <div>
+                            <hr class="blog-card-hr">
+                            <div class="blog-stat flex">
+                                <img src="/media/icons/read-book.svg" alt="read time" width="16px"
+                                    class="filter-color-scheme">
+                                <p>3 minutes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <a href="#showcase" class="more-blogs">
+            <div class="flex">
+                <p>More</p>
+                <img src="/media/icons/right-arrow.svg" alt="More Blogs" width="20px" class="filter-color-scheme">
+            </div>
+        </a>
+    </div>
+
+    <hr>
+
     <div class="container-center">
     <h1>Footer</h1>
         <p>A footer is the one at the bottom of the webpage. It mostly contains the header for footer (some text) and the social links.</p>
     </div>
-        <footer class="footer-base flex">
+        <footer class="footer-base flex" id="footer-anchor">
             <div class="footer-heading">Social Links</div>
             <ul class="list-style-none flex">
-                <li><a href="/index.html#footer" target="_blank">Social Link 1</a></li>
-                <li><a href="/" target="_blank">Social link 2</a></li>
-                <li><a href="/" target="_blank">Social link 3</a></li>
+                <li><a href="#footer-anchor" target="_blank">Social Link 1</a></li>
+                <li><a href="#footer-anchor" target="_blank">Social link 2</a></li>
+                <li><a href="#footer-anchor" target="_blank">Social link 3</a></li>
             </ul>
             <p>Copyright &#169 2022. Made by &lt;Your name here></p>
         </footer>
