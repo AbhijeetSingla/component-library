@@ -31,3 +31,7 @@
     background-color: var(--white-base);
     color: var(--secondary-base);
 }
+
+#theme-toggle-button {
+    background-image: url(/media/icons/dark-mode.svg);
+}
