@@ -29,8 +29,11 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    height: 40px;
+    width: 40px;
     background-color: transparent;
     border-color: transparent;
+    background-repeat: no-repeat;
 }
 
 /* welcome screen */
