@@ -29,3 +29,8 @@ body {
 a:visited {
     color: var(--white-smoke-base);
 }
+
+#theme-toggle-button {
+    background-image: url(/media/icons/light-mode.svg);
+    filter: invert(100%) sepia(0%) saturate(7427%) hue-rotate(23deg) brightness(118%) contrast(118%);
+}
