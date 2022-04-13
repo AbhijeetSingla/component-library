@@ -23,6 +23,16 @@ body {
 .flex { display: flex; gap: var(--gap, 1rem);}
 .grid { display: grid; gap: var(--gap, 1rem);}
 
+/* theme toggle button */
+
+#theme-toggle-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border-color: transparent;
+}
+
 /* welcome screen */
 
 .fixed-bg {
