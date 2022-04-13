@@ -49,7 +49,7 @@ body {
 
 @media (prefers-color-scheme: no-preference), (prefers-color-scheme: light) {
     
-    :root {
+   :root {
         --primary-base: #FF3737;
         --secondary-base: #f12a2a;
         --primary-hover: #FFE6E6;
