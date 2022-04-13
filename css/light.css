@@ -1,0 +1,33 @@
+:root {
+    --primary-base: #FF3737;
+    --secondary-base: #f12a2a;
+    --primary-hover: #FFE6E6;
+    --text-color: #ffffff;
+    --blog-card-text-color: #000000;
+    --primary-link-color: #FF3737;
+    --primary-link-text-color:var(--text-color);
+    --secondary-link-text-color: var(--primary-link-color);
+    --bg-color: #ffffff; 
+    --gradient-color: var(--bg-color);
+    --section-offwhite-color: #ebebeb;
+    --white-base: #FFFFFF;
+    --white-smoke-base: #EBEBEB;
+    --black-base: #000000;
+    --grey-fade: #c2c2c2;
+}
+
+::selection {
+    background-color: var(--primary-base);
+    color: var(--text-color);
+}
+
+
+.footer-base ::selection {
+    background-color: var(--white-base);
+    color: var(--secondary-base);
+}
+
+.nav-base ::selection {
+    background-color: var(--white-base);
+    color: var(--secondary-base);
+}
