@@ -441,6 +441,7 @@ body {
     align-items: center;
     gap: 1rem;
     line-height: 25px;
+    cursor: pointer;
 }
 
 .primary-button img {
