@@ -347,7 +347,7 @@ body {
 /* aside */
 
 .aside-base {
-    color: var(--red);
+    color: var(--aside-text-color);
     font-style: italic;
     font-size: 1rem;
 }

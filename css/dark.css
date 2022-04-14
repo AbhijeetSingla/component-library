@@ -6,6 +6,7 @@ body {
 :root {
     --text-color: #f0f0f0;
     --blog-card-text-color: var(--text-color);
+    --aside-text-color: #f12a2a;
     --primary-base: #212121;
     --secondary-base: #404040;
     --primary-hover: #252525;
