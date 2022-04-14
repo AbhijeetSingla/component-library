@@ -34,6 +34,8 @@ body {
     background-color: transparent;
     border-color: transparent;
     background-repeat: no-repeat;
+    margin-inline-end: 1rem;
+    margin-block-start: 1rem;
 }
 
 /* welcome screen */
