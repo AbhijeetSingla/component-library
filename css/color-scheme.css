@@ -29,8 +29,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: transparent;
     border-color: transparent;
     background-repeat: no-repeat;
@@ -438,7 +438,7 @@ button + button {
 }
 
 .code-base>figcaption {
-    font-size: 0.55rem;
+    font-size: 9px;
     padding-block-start: 1rem;
     padding-inline-start: 1.2rem;
     padding-inline-end: 1.2rem;
