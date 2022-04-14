@@ -37,7 +37,7 @@ Each component is styled and contained in a div, the HTML code can be found in t
 
 Steps to impliment:
 1. Copy HTML with style classes from "index.html".
-2. Copy CSS **including the utility classes** from the CSS file located in "css" folder.
+2. Copy CSS **including the utility classes and the media queries** from the CSS file located in "css" folder.
 3. Verify the class names before pulling your hair out for it not working :P
 
 # Preview
