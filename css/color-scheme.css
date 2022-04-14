@@ -20,12 +20,15 @@ body {
     }
 
     :root {
-        --text-color: #f0f0f0;
-        --aside-text-color: #f12a2a;
-        --blog-card-text-color: var(--text-color);
         --primary-base: #212121;
         --secondary-base: #404040;
         --primary-hover: #252525;
+
+        --text-color: #f0f0f0;
+        --aside-text-color: #f12a2a;
+        --blog-card-text-color: var(--text-color);
+        
+        
         --bg-color: #121212;
         --primary-link-color: #505050;
         --primary-link-text-color: var(--text-color);
@@ -52,17 +55,17 @@ body {
     
    :root {
         --primary-base: #FF3737;
-        --aside-text-color: #f12a2a;
         --secondary-base: #f12a2a;
         --primary-hover: #FFE6E6;
-        --text-color: #ffffff;
-        --blog-card-text-color: #000000;
         --primary-link-color: #FF3737;
+        --bg-color: #ffffff;
+        --section-offwhite-color: #ebebeb;
+        --text-color: #ffffff;
+        --aside-text-color: #f12a2a;
+        --blog-card-text-color: #000000;       
         --primary-link-text-color:var(--text-color);
         --secondary-link-text-color: var(--primary-link-color);
-        --bg-color: #ffffff; 
         --gradient-color: var(--bg-color);
-        --section-offwhite-color: #ebebeb;
         --white-base: #FFFFFF;
         --white-smoke-base: #EBEBEB;
         --black-base: #000000;
