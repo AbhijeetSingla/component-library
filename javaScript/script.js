@@ -6,30 +6,28 @@ const themeToggleButton = document.querySelector("#theme-toggle-button");
 
 function toggleTheme() {
     darkMode = localStorage.getItem("darkMode");
-    console.log(darkMode + "4");
+
     if (darkMode === "enabled") {
         localStorage.setItem("darkMode", "disabled");
+        themeCSSPath.setAttribute("href", "/css/light.css");    
+    } else if (dark && darkMode === null) {
+        localStorage.setItem("darkMode", "disabled");
         themeCSSPath.setAttribute("href", "/css/light.css");
-        console.log(darkMode + "5");
-    } else {
+    } else if (light && darkMode === null) {
         localStorage.setItem("darkMode", "enabled");
         themeCSSPath.setAttribute("href", "/css/dark.css");
-        console.log(darkMode + "6");
+    } else {
+        localStorage.setItem("darkMode", "enabled");
+        themeCSSPath.setAttribute("href", "/css/dark.css");    
     }
 }
 
-if (light) {
+if (light && darkMode === null) {
 	themeCSSPath.setAttribute("href", "/css/light.css");
-    localStorage.setItem("darkMode", "disabled");
-    console.log(darkMode + "1");
-} else if (dark) {
+} else if (dark && darkMode === null) {
 	themeCSSPath.setAttribute("href", "/css/dark.css");
-    localStorage.setItem("darkMode", "enabled");
-    console.log(darkMode + "2");
 } else {
     themeCSSPath.setAttribute("href", "/css/light.css");
-    localStorage.setItem("darkMode", "disabled");
-    console.log(darkMode + "3");
 }
 
 themeToggleButton.addEventListener("click", toggleTheme);
