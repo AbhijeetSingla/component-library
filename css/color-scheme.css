@@ -71,6 +71,20 @@ body {
     font-size: 110%;
 }
 
+/* header */
+
+.header-base img {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.header-base {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
 /* navigation */
 
 .primary-nav-logo {
@@ -320,6 +334,22 @@ body {
     align-items: center;
 }
 
+/* typography */
+
+.typography-base {
+    text-align: center;
+    flex-direction: column;
+    --gap: 0;
+}
+
+/* aside */
+
+.aside-base {
+    color: var(--red);
+    font-style: italic;
+    font-size: 1rem;
+}
+
 /* links */
 
 .primary-link {
@@ -382,6 +412,7 @@ body {
     align-items: center;
     gap: 1rem;
     line-height: 25px;
+    cursor: pointer;
 }
 
 .primary-button img {
@@ -396,6 +427,22 @@ body {
 button + button {
     margin-inline-start: 1rem;
 }
+
+/* code */
+
+.code-base {
+    --max-spc-width: 600px;
+    margin-inline-start: 0;
+}
+
+.code-base>figcaption {
+    font-size: 0.55rem;
+    padding-block-start: 1rem;
+    padding-inline-start: 1.2rem;
+    padding-inline-end: 1.2rem;
+    padding-block-end: 0;
+}
+
 /* projects */
 
 .project-container.read-mode {
