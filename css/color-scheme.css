@@ -379,6 +379,22 @@ body {
     align-items: center;
 }
 
+/* typography */
+
+.typography-base {
+    text-align: center;
+    flex-direction: column;
+    --gap: 0;
+}
+
+/* aside */
+
+.aside-base {
+    color: var(--red);
+    font-style: italic;
+    font-size: 1rem;
+}
+
 /* links */
 
 .primary-link {
