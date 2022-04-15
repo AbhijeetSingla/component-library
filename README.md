@@ -39,15 +39,15 @@ Each component is styled and contained in a div, the HTML code can be found in t
 Steps to impliment:
 1. Copy HTML with style classes from "index.html".
 2. Copy CSS **including the utility classes and the media queries** from the CSS file located in "css" folder.
-1. Copy related javaScript file in javaScript folder.
-1. Verify the class names before pulling your hair out for it not working :P
+3. Copy related javaScript file in javaScript folder.
+4. Verify the class names before pulling your hair out for it not working :P
 
 # Preview
 A live preview can be seen at 
 
-[theme4-as1553-component-library.netlify.app](https://theme4-as1553-component-library.netlify.app)
+[as1553-component-library.netlify.app](https://as1553-component-library.netlify.app)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/51e2a241-bc66-4fdf-9be9-053d6e99bbd2/deploy-status)](https://app.netlify.com/sites/theme4-as1553-component-library/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/51e2a241-bc66-4fdf-9be9-053d6e99bbd2/deploy-status)](https://app.netlify.com/sites/as1553-component-library/deploys)
 
 # Suggestions❓
 Any suggestions are welcome, be it a different way to write the same class, kindly do message me.
