@@ -5,6 +5,7 @@
 
 # What's included?
 This component library includes the following:
+1. Theme toggle button
 1. Gradient Cover page with background
 2. Header
 3. Navigation
@@ -38,7 +39,8 @@ Each component is styled and contained in a div, the HTML code can be found in t
 Steps to impliment:
 1. Copy HTML with style classes from "index.html".
 2. Copy CSS **including the utility classes and the media queries** from the CSS file located in "css" folder.
-3. Verify the class names before pulling your hair out for it not working :P
+3. Copy related javaScript file in javaScript folder.
+4. Verify the class names before pulling your hair out for it not working :P
 
 # Preview
 A live preview can be seen at 

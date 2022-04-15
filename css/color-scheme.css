@@ -12,83 +12,6 @@ body {
     margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-
-    body {
-        background-color: var(--bg-color);
-        color: var(--text-color);
-    }
-
-    :root {
-        --primary-base: #212121;
-        --secondary-base: #404040;
-        --primary-hover: #252525;
-
-        --text-color: #f0f0f0;
-        --aside-text-color: #f12a2a;
-        --blog-card-text-color: var(--text-color);
-        
-        
-        --bg-color: #121212;
-        --primary-link-color: #505050;
-        --primary-link-text-color: var(--text-color);
-        --secondary-link-text-color: var(--primary-link-color);
-        --section-offwhite-color: var(--primary-base);
-        --gradient-color: var(--bg-color);
-        --white-base: #FFFFFF;
-        --white-smoke-base: #EBEBEB;
-        --black-base: #000000;
-        --grey-fade: #404040;
-        --hr-color: #303030;
-    }
-
-    .filter-color-scheme {
-        filter: invert(99%) sepia(40%) saturate(30%) hue-rotate(196deg) brightness(113%) contrast(88%);
-    }
-
-    a:visited {
-        color: var(--white-smoke-base);
-    }
-}
-
-@media (prefers-color-scheme: no-preference), (prefers-color-scheme: light) {
-    
-   :root {
-        --primary-base: #FF3737;
-        --secondary-base: #f12a2a;
-        --primary-hover: #FFE6E6;
-        --primary-link-color: #FF3737;
-        --bg-color: #ffffff;
-        --section-offwhite-color: #ebebeb;
-        --text-color: #ffffff;
-        --aside-text-color: #f12a2a;
-        --blog-card-text-color: #000000;       
-        --primary-link-text-color:var(--text-color);
-        --secondary-link-text-color: var(--primary-link-color);
-        --gradient-color: var(--bg-color);
-        --white-base: #FFFFFF;
-        --white-smoke-base: #EBEBEB;
-        --black-base: #000000;
-        --grey-fade: #c2c2c2;
-    }
-
-    ::selection {
-        background-color: var(--primary-base);
-        color: var(--text-color);
-    }
-
-
-    .footer-base ::selection {
-        background-color: var(--white-base);
-        color: var(--secondary-base);
-    }
-
-    .nav-base ::selection {
-        background-color: var(--white-base);
-        color: var(--secondary-base);
-    }
-}
-
 /* utility classes*/
 
 .uppercase { text-transform: uppercase;}
@@ -99,6 +22,21 @@ body {
 .margin-0 {margin:0;}
 .flex { display: flex; gap: var(--gap, 1rem);}
 .grid { display: grid; gap: var(--gap, 1rem);}
+
+/* theme toggle button */
+
+#theme-toggle-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: transparent;
+    border-color: transparent;
+    background-repeat: no-repeat;
+    margin-inline-end: 1rem;
+    margin-block-start: 1rem;
+}
 
 /* welcome screen */
 
@@ -500,7 +438,7 @@ button + button {
 }
 
 .code-base>figcaption {
-    font-size: 0.55rem;
+    font-size: 9px;
     padding-block-start: 1rem;
     padding-inline-start: 1.2rem;
     padding-inline-end: 1.2rem;
