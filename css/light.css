@@ -33,6 +33,10 @@
     color: var(--secondary-base);
 }
 
+.filter-color-scheme {
+    filter: invert(99%) sepia(40%) saturate(30%) hue-rotate(196deg) brightness(113%) contrast(88%);
+}
+
 #theme-toggle-button {
     background-image: url(/media/icons/dark-mode.svg);
     filter: invert(11%) sepia(0%) saturate(2503%) hue-rotate(166deg) brightness(99%) contrast(47%);
