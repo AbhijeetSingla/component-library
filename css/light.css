@@ -33,7 +33,7 @@
     color: var(--secondary-base);
 }
 
-.filter-color-scheme {
+.filter-color-scheme:not(.not-in-light-mode) {
     filter: invert(99%) sepia(40%) saturate(30%) hue-rotate(196deg) brightness(113%) contrast(88%);
 }
 
