@@ -11,11 +11,11 @@ function toggleTheme() {
         localStorage.setItem("darkMode", "disabled");
         themeCSSPath.setAttribute("href", "/css/light.css");    
     } else if (dark && darkMode === null) {
-        localStorage.setItem("darkMode", "disabled");
-        themeCSSPath.setAttribute("href", "/css/light.css");
-    } else if (light && darkMode === null) {
         localStorage.setItem("darkMode", "enabled");
         themeCSSPath.setAttribute("href", "/css/dark.css");
+    } else if (light && darkMode === null) {
+        localStorage.setItem("darkMode", "disabled");
+        themeCSSPath.setAttribute("href", "/css/light.css");
     } else {
         localStorage.setItem("darkMode", "enabled");
         themeCSSPath.setAttribute("href", "/css/dark.css");    
@@ -29,5 +29,11 @@ if (light && darkMode === null) {
 } else {
     themeCSSPath.setAttribute("href", "/css/light.css");
 }
+
+if (darkMode === "disabled") {
+    themeCSSPath.setAttribute("href", "/css/light.css");
+} else if (darkMode === "enabled") {
+    themeCSSPath.setAttribute("href", "/css/dark.css");
+} else {}
 
 themeToggleButton.addEventListener("click", toggleTheme);
