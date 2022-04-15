@@ -11,11 +11,11 @@ function toggleTheme() {
         localStorage.setItem("darkMode", "disabled");
         themeCSSPath.setAttribute("href", "/css/light.css");    
     } else if (dark && darkMode === null) {
-        localStorage.setItem("darkMode", "enabled");
-        themeCSSPath.setAttribute("href", "/css/dark.css");
-    } else if (light && darkMode === null) {
         localStorage.setItem("darkMode", "disabled");
         themeCSSPath.setAttribute("href", "/css/light.css");
+    } else if (light && darkMode === null) {
+        localStorage.setItem("darkMode", "enabled");
+        themeCSSPath.setAttribute("href", "/css/dark.css");
     } else {
         localStorage.setItem("darkMode", "enabled");
         themeCSSPath.setAttribute("href", "/css/dark.css");    
