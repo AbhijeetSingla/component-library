@@ -178,10 +178,6 @@ body {
     font-weight: 400;
 }
 
-.nav-base span[aria-hidden="true"] {
-    display: none;
-}
-
 .nav-base a:hover:not(.link-active, .txt-decor-none) {
     text-decoration: underline;
 }
