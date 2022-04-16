@@ -445,6 +445,11 @@ button + button {
     padding-block-end: 0;
 }
 
+.code-base>pre {
+    margin-block-start: 0;
+    overflow: auto;
+}
+
 /* projects */
 
 .project-container.read-mode {
