@@ -106,7 +106,7 @@ body {
         display: inline-flex;
     }
 
-    nav.nav-base {
+    div.nav-base {
         position: sticky;
         top: 0;
         flex-direction: column;
@@ -115,13 +115,13 @@ body {
         padding-block-end: 1rem;
     }
 
-    nav.nav-base ul {
+    div.nav-base ul {
         flex-direction: column;
         align-items: flex-start;
         --gap: 2rem;
     }
 
-    nav.nav-base span[aria-hidden="true"] {
+    div.nav-base span[aria-hidden="true"] {
         display: inline;
         font-weight: 500;
         padding-inline-end: 2ch;
