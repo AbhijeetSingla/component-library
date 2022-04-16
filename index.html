@@ -12,8 +12,6 @@
 </head>
 
 <body>
-    <button id="theme-toggle-button"></button>
-    <script src="/javaScript/darkmodetoggle.js"></script>
     <div class="fixed-bg cover-viewport">
         <div class="welcome-screen-div flex cover-viewport">
             <h1>Abhijeet's Component Library</h1>
@@ -41,14 +39,17 @@
 
     </div>
         <nav class="nav-base flex">
+            <button class="mobile-nav-button"></button>
             <a href="/index.html" class="txt-decor-none"><div class="primary-nav-logo flex"><img src="/media/images/hero.svg" alt="brand logo" width="50px">Brand Name</div></a>
             <ul class="list-style-none flex">
-                <li><a href="/" class="uppercase link-active">Home</a></li>
-                <li><a href="/" class="uppercase">tab 2</a></li>
-                <li><a href="/" class="uppercase">tab 3</a></li>
-                <li><a href="/" class="uppercase">About</a></li>
+                <li><a href="/" class="uppercase link-active"><span aria-hidden="true">00</span>Home</a></li>
+                <li><a href="/" class="uppercase"><span aria-hidden="true">01</span>tab 2</a></li>
+                <li><a href="/" class="uppercase"><span aria-hidden="true">02</span>tab 3</a></li>
+                <li><a href="/" class="uppercase"><span aria-hidden="true">03</span>About</a></li>
+                <button id="theme-toggle-button" class="specially-for-cl"><span aria-hidden="true">toggle theme</span></button>
             </ul>
-        </nav> 
+        </nav>
+        <script aria-hidden="true" src="/javaScript/darkmodetoggle.js"></script>
 
     <hr>
     
