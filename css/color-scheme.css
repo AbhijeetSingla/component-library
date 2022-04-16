@@ -115,13 +115,13 @@ body {
         padding-block-end: 1rem;
     }
 
-    div.nav-base ul {
+    ul.nav-ul {
         flex-direction: column;
         align-items: flex-start;
         --gap: 2rem;
     }
 
-    div.nav-base span[aria-hidden="true"] {
+    .nav-ul>li span[aria-hidden="true"] {
         display: inline;
         font-weight: 500;
         padding-inline-end: 2ch;
@@ -164,7 +164,7 @@ body {
     margin-block-end: 2rem;
 }
 
-.nav-base ul {
+.nav-ul {
     align-items: center;
     margin-block-end: 0;
     margin-block-start: 0;
@@ -172,18 +172,22 @@ body {
     --gap: 3rem;
 }
 
-.nav-base a {
+.nav-inside-div a {
     color: var(--text-color);
     text-decoration: none;
     font-weight: 400;
 }
 
-.nav-base a:hover:not(.link-active, .txt-decor-none) {
+.nav-inside-div a:hover:not(.link-active, .txt-decor-none) {
     text-decoration: underline;
 }
 
-.nav-base .link-active {
+.nav-inside-div .link-active {
     font-weight: bold;
+}
+
+.nav-inside-div span[aria-hidden="true"] {
+    display: none;
 }
 
 /* containers */
