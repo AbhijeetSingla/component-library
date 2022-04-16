@@ -1,5 +1,5 @@
 # About
- A component library created for further projects. This library would have themes as branches. The latest finalized theme would be set for showcase.
+ A component library created for further projects. This library would have themes as branches. The latest finalized theme would be pulled in main.
 
  ***These themes are responsive :D***
 
