@@ -25,9 +25,7 @@ body {
 .p-fixed {position: fixed;}
 .p-sticky {position: sticky;}
 .p-absolute {position: absolute;}
-.sr-only {position: absolute !important; border: 0 !important; height: 1px !important; width: 1px !important; margin-block-start: -1px !important; margin-inline-start: -1px !important; margin-inline-end: -1px !important; margin-block-end: -1px !important; padding-block-start: 0 !important; padding-inline-start: 0 !important; padding-inline-end: 0 !important; padding-block-end: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important; clip: rect(1px, 1px, 1px, 1px) !important; clip-path: inset(50%) !important; white-space: nowrap !important;
-}
-
+.sr-only {position: absolute !important; border: 0 !important; height: 1px !important; width: 1px !important; margin-block-start: -1px !important; margin-inline-start: -1px !important; margin-inline-end: -1px !important; margin-block-end: -1px !important; padding-block-start: 0 !important; padding-inline-start: 0 !important; padding-inline-end: 0 !important; padding-block-end: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important; clip: rect(1px, 1px, 1px, 1px) !important; clip-path: inset(50%) !important; white-space: nowrap !important;}
 
 /* theme toggle button */
 
