@@ -3,6 +3,10 @@ html {
     scroll-behavior: smooth;
 }
 
+html > * {
+    transition: 150ms ease-in-out;
+}
+
 html, body {
     height: 100%;
 }
