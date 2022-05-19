@@ -43,9 +43,9 @@ Steps to impliment:
 3. Verify the class names before pulling your hair out for it not working :P
 
 # Preview
-A live preview can be seen at 
+Features merged with main site, A live preview can be seen at:
 
-[as1553cl.netlify.app](https://as1553cl.netlify.app)
+[as1553-component-library.netlify.app](https://as1553-component-library.netlify.app)
 
 # Suggestions❓
 Any suggestions are welcome, be it a different way to write the same class, kindly do message me.
