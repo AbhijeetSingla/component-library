@@ -43,9 +43,9 @@ Steps to impliment:
 4. Verify the class names before pulling your hair out for it not working :P
 
 # Preview
-A live preview can be seen at 
+Features merged with main site, A live preview can be seen at 
 
-[theme4-as1553-component-library.netlify.app](https://theme4-as1553-component-library.netlify.app)
+[as1553-component-library.netlify.app](https://as1553-component-library.netlify.app)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/51e2a241-bc66-4fdf-9be9-053d6e99bbd2/deploy-status)](https://app.netlify.com/sites/theme4-as1553-component-library/deploys)
 
