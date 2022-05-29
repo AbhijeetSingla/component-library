@@ -37,6 +37,7 @@ body {
     right: 0;
     height: 2.5rem;
     width: 2.5rem;
+    cursor: pointer;
     background-color: transparent;
     border-color: transparent;
     background-repeat: no-repeat;
