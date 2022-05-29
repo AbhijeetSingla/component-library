@@ -21,6 +21,7 @@ body {
     --black-base: #000000;
     --grey-fade: #404040;
     --hr-color: #303030;
+    transition: 150ms ease-in-out;
 }
 
 .filter-color-scheme {

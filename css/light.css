@@ -15,6 +15,7 @@
     --white-smoke-base: #EBEBEB;
     --black-base: #000000;
     --grey-fade: #c2c2c2;
+    transition: 150ms ease-in-out;
 }
 
 ::selection {

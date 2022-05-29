@@ -12,6 +12,7 @@ html {
     --white-base: #FFFFFF;
     --white-smoke-base: #EBEBEB;
     --black-base: #000000;
+    transition: 150ms ease-in-out;
 }
 
 ::selection {
