@@ -37,6 +37,6 @@ if (darkMode === "disabled") {
     themeCSSPath.setAttribute("href", lightLink);
 } else if (darkMode === "enabled") {
     themeCSSPath.setAttribute("href", darkLink);
-} else {}
+} else {console.error("idk *shrug*")}
 
 themeToggleButton.addEventListener("click", toggleTheme);
